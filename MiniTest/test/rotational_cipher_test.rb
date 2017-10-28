@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'rotational_cipher'
+require_relative '../lib/rotational_cipher'
 
 # Common test data version: 1.1.0 9c658d1
 class RotationalCipherTest < Minitest::Test

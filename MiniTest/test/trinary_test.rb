@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'trinary'
+require_relative '../lib/trinary'
 
 class TrinaryTest < Minitest::Test
   def test_trinary_1_is_decimal_1

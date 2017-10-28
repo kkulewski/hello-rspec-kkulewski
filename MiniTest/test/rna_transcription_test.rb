@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'rna_transcription'
+require_relative '../lib/rna_transcription'
 
 # Common test data version: 1.0.1 cb1fd3a
 class RnaTranscriptionTest < Minitest::Test

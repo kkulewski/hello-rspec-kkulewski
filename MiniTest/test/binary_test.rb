@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'binary'
+require_relative '../lib/binary'
 
 # Common test data version: 1.0.0 969717d
 class BinaryTest < Minitest::Test
