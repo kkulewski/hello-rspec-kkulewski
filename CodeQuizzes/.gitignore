@@ -1,0 +1,4 @@
+/bin/
+/.bundle/
+.rspec
+/spec/spec_helper.rb
