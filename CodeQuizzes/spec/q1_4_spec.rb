@@ -1,4 +1,4 @@
-require '../lib/q1_4'
+require_relative '../lib/q1_4'
 
 RSpec.describe '../lib/q1_4' do
   describe '#vowels' do

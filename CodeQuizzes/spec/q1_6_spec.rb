@@ -1,4 +1,4 @@
-require '../lib/q1_6'
+require_relative '../lib/q1_6'
 
 RSpec.describe '../lib/q1_6' do
   describe '#strip_whitespace' do

@@ -1,4 +1,4 @@
-require '../lib/q1_5'
+require_relative '../lib/q1_5'
 
 RSpec.describe '../lib/q1_5' do
   describe '#start_with_c?' do

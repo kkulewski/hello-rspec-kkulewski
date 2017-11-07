@@ -1,4 +1,4 @@
-require '../lib/q2_3'
+require_relative '../lib/q2_3'
 
 RSpec.describe '../lib/q2_3' do
   describe '#mean' do

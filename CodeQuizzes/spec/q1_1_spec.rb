@@ -1,4 +1,4 @@
-require '../lib/q1_1'
+require_relative '../lib/q1_1'
 
 RSpec.describe '../lib/q1_1' do
   describe '#word_count' do

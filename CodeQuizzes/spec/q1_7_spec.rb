@@ -1,4 +1,4 @@
-require '../lib/q1_7'
+require_relative '../lib/q1_7'
 
 RSpec.describe '../lib/q1_7' do
   describe '#titlecase' do

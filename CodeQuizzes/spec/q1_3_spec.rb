@@ -1,4 +1,4 @@
-require '../lib/q1_3'
+require_relative '../lib/q1_3'
 
 RSpec.describe '../lib/q1_3' do
   describe '#palindrome?' do

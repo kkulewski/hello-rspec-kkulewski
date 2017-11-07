@@ -1,4 +1,4 @@
-require '../lib/q2_1'
+require_relative '../lib/q2_1'
 
 RSpec.describe '../lib/q2_1' do
   describe '#has_string?' do

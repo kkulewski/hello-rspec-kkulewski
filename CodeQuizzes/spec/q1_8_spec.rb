@@ -1,4 +1,4 @@
-require '../lib/q1_8'
+require_relative '../lib/q1_8'
 
 RSpec.describe '../lib/q1_8' do
   describe '#delete_last' do

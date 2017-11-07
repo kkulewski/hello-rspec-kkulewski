@@ -1,4 +1,4 @@
-require '../lib/q1_2'
+require_relative '../lib/q1_2'
 
 RSpec.describe '../lib/q1_2' do
   describe '#average_word_length' do

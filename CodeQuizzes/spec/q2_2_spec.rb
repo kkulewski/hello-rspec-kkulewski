@@ -1,4 +1,4 @@
-require '../lib/q2_2'
+require_relative '../lib/q2_2'
 
 RSpec.describe '../lib/q2_2' do
   describe '#sort_by_length' do
