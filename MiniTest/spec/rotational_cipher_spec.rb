@@ -46,10 +46,4 @@ RSpec.describe '../lib/rotational_cipher' do
         .to eq 'Gur dhvpx oebja sbk whzcf bire gur ynml qbt.'
     end
   end
-
-  describe 'BookKeeping::VERSION' do
-    it "returns 1 for 'BookKeeping::VERSION'" do
-      expect(BookKeeping::VERSION).to eq 1
-    end
-  end
 end

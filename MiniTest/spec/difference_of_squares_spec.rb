@@ -42,10 +42,4 @@ RSpec.describe '../lib/difference_of_squares' do
       expect(Squares.new(100).difference).to eq 25_164_150
     end
   end
-
-  describe 'BookKeeping::VERSION' do
-    it "returns 4 for 'BookKeeping::VERSION'" do
-      expect(BookKeeping::VERSION).to eq 4
-    end
-  end
 end

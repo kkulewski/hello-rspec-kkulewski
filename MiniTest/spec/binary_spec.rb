@@ -61,9 +61,5 @@ RSpec.describe '../lib/binary' do
     it "raises ArgumentError on invalid binary digit '001 nope'" do
       expect { Binary.to_decimal('001 nope') }.to raise_error(ArgumentError)
     end
-
-    it "returns 3 for 'BookKeeping::VERSION'" do
-      expect(BookKeeping::VERSION).to eq 3
-    end
   end
 end

@@ -34,10 +34,4 @@ RSpec.describe '../lib/rna_transcription' do
       expect(Complement.of_dna('ACGTXXXCTTAA')).to eq ''
     end
   end
-
-  describe 'BookKeeping::VERSION' do
-    it "returns 4 for 'BookKeeping::VERSION'" do
-      expect(BookKeeping::VERSION).to eq 4
-    end
-  end
 end
